@@ -1,0 +1,31 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    margin: 500px;
+    margin-top: 200px;
+}
+div{
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(115, 202, 205);
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.grid17{
+    grid-column-start: 4;
+     grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.gridinput{
+    width: 360px;
+    height: 60px;
+}
